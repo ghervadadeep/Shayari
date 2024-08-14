@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".Page_3">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+<!--        <ImageView-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:id="@+id/btn2"-->
+<!--            android:layout_marginTop="12.5dp"-->
+<!--            android:layout_marginStart="12.5dp"-->
+<!--            android:paddingBottom="5dp"-->
+<!--            android:paddingTop="5dp"-->
+<!--            android:background="@drawable/back_btn"-->
+<!--            android:src="@drawable/baseline_arrow_back_24"-->
+<!--            ></ImageView>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/txt"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        />
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/mylist2"
+        android:layout_marginEnd="10dp"
+        android:scrollbars="none"
+        android:dividerHeight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

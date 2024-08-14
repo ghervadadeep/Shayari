@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Category_page">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+<!--        <ImageView-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:id="@+id/btn1"-->
+<!--            android:layout_marginTop="12.5dp"-->
+<!--            android:layout_marginStart="12.5dp"-->
+<!--            android:paddingBottom="5dp"-->
+<!--            android:paddingTop="5dp"-->
+<!--            android:background="@drawable/back_btn"-->
+<!--            android:src="@drawable/baseline_arrow_back_24"-->
+<!--            ></ImageView>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:text="Categories"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/mylist1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:dividerHeight="10dp"
+        android:scrollbars="none" />
+
+
+</LinearLayout>
