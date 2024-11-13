@@ -34,7 +34,6 @@
         android:layout_marginBottom="100dp"
         android:background="@drawable/start_button">
 
-
     </androidx.viewpager.widget.ViewPager>
 
     <LinearLayout

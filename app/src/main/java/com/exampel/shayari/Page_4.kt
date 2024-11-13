@@ -15,7 +15,6 @@ import androidx.viewpager.widget.ViewPager
 
 class Page_4 : AppCompatActivity() {
 
-
     lateinit var pageview: ViewPager
 //    lateinit var alllist : ListView
 
